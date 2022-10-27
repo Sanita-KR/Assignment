@@ -1,0 +1,130 @@
+.background {
+    width: 100%;
+  }
+  
+  .foreground {
+    width: 100%;
+    height: auto;
+  }
+
+.product-detail-page {
+    width: 100%;
+    height: auto;
+    flex: none;
+    display: block;
+    margin-top: 0;
+    margin-left: 0;
+}
+
+.image {
+    width: 100%;
+    height: 360px;
+    display: block;
+    flex: none;
+    margin: 0;
+}
+
+.product-info-box {
+    width: 336px;
+    height: 568px;
+    display: block;
+    flex: none;
+    margin-right: 12px;
+    margin-bottom: 24px;
+    margin-left: 0;
+    margin-top: 0;
+    padding-left: 12px;
+}
+
+.price-option-box {
+    width: 336px;
+}
+
+.price-option-box .price-range {
+    margin-right: 0;
+}
+
+.price-option-box .option-title {
+    width: auto;
+    margin-left: 4px;
+}
+
+.price-option-box .option-number {
+    width: auto;
+    margin-left: 4px;
+    margin-right: 3px;
+}
+
+.price-option-box .min-order-tag {
+    width: auto;
+    margin-right: 0;
+}
+
+.price-option-box .non-discount-price {
+    white-space: nowrap;
+}
+
+.march-expo {
+    width: 100%;
+    margin-right: 12px;
+}
+
+.march-expo .on-time-delivery-tag {
+    display: none;
+}
+
+.march-expo .forward-symbol {
+    margin-right: 16px;
+    float: right;
+    position: relative;
+    top: 14px;
+}
+
+.product-option-box {
+    width: 360px;
+    padding-right: 12px;
+    margin-left: -12px;
+}
+
+.product-option-box .product-option-box-first-line .product-option-box-inner-box-title {
+    display: none;
+}
+
+.product-option-box .product-option-box-third-line .option-title, .product-option-box .product-option-box-second-line .option-title, .product-option-box .product-option-box-first-line .option-title {
+    width: 148px;
+    margin-left: 12px;
+}
+
+.product-option-box .quantity-count-box .quantity-1, .product-option-box .quantity-count-box .quantity-2, .product-option-box .quantity-count-box .quantity-3 {
+    width: 40px;
+}
+
+.product-option-box .product-option-box-third-line .option-price {
+    margin-right: 20px;
+}
+
+.product-option-box .product-option-box-second-line .option-price, .product-option-box .product-option-box-first-line .option-price{
+    margin-right: 12px;
+}
+
+.trade-assurance-box {
+    width: 100%;
+}
+
+.add-to-box {
+    width: 336px;
+    display: block;
+    flex: none;
+    margin-top: 12px;
+    margin-left: 12px;
+}
+
+.login-to-purchase {
+    width: 284px;
+    margin: 0px 26px 12px 26px;
+}
+
+.contact-supplier {
+    width: 284px;
+    margin: 0px 26px 24px 26px;
+}

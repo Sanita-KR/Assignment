@@ -1,0 +1,655 @@
+@font-face {
+  font-family: roboto;
+  src: url(fonts/Roboto-Regular.ttf);
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: roboto;
+  src: url(fonts/Roboto-Bold.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: roboto-medium;
+  src: url(fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+  font-family: roboto-italic;
+  src: url(fonts/Roboto-Italic.ttf);
+}
+
+html * {
+  font-family: roboto;
+}
+
+.background {
+  background-color: #EDF0F3;
+  border-radius: 8px;
+  width: 1440px;
+  height: 332px;
+}
+
+.product-detail-page {
+  width: 1440px;
+  height: 692px;
+  background-color: #FFFFFF;
+  margin-top: 150px;
+  margin-left: 50px;
+  margin-right: 50px;
+  display: flex;
+}
+
+.foreground {
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 8px;
+  width: 1440px;
+  height: 332px;
+  margin-left: 50px;
+}
+
+.image {
+  width: 416px;
+  height: 416px;
+  margin: 48px 24px 228px 72px;
+  display: inline-block;
+}
+
+.info-box {
+  width: 526px;
+  height: 544px;
+  padding: 48px 24px 100px 0px;
+  flex: 1;
+}
+
+.add-to-box {
+  border-radius: 8px;
+  width: 306px;
+  height: 256px;
+  box-shadow: 0 0 10px 1px rgb(242, 242, 242);
+  margin: 48px 72px 24px 24px;
+  display: inline-block;
+}
+
+.ship-to-south-africa {
+  width: 132px;
+  height: 32px;
+  color: #999999;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: left;
+  margin: 28px 48px 12px 24px;
+  display: inline-block;
+}
+
+#summary {
+  position: relative;
+  right: 24px;
+}
+
+.shipping-price {
+  color: #333333;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: right;
+  width: 78px;
+  height: 24px;
+  font-weight: bold;
+  float: right;
+  margin: 24px 24px 24px 0px;
+}
+
+.lead-time {
+  color: #999999;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: left;
+  display: block;
+  margin: 0px 0px 12px 24px;
+}
+
+.info-icon {
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+  margin-left: 12px;
+  position: relative;
+  top: 2px;
+}
+
+.shipping-time {
+  color: #999999;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: left;
+  display: block;
+  margin: 0px 11px 12px 24px;
+}
+
+.login-to-purchase {
+  background-color: #FF6600;
+  border: 1px solid #FF6600;
+  border-radius: 20px;
+  width: 258px;
+  height: 40px;
+  color: #FFFFFF;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  margin: 0px 24px 12px 24px;
+  font-family: roboto-medium;
+}
+
+.contact-supplier {
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid #FF6600;
+  border-radius: 20px;
+  width: 258px;
+  height: 40px;
+  color: #FF6600;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0px 24px 24px 24px;
+  padding: 10px 68px 10px 36px;
+}
+
+.contact-supplier-text {
+  width: 128px;
+  height: 20px;
+  font-family: roboto-medium;
+}
+
+.envelope-icon {
+  width: 14px;
+  padding-right: 6px;
+  position: relative;
+  top: 1px;
+}
+
+.product-info .option-box {
+  width: 526px;
+  height: 144px;
+  margin: 24px 0px 24px 0px;
+}
+
+.product-info .option-box .option-line-1 {
+  width: 526px;
+  height: 40px;
+}
+
+.product-info .option-box .option-line-1 .title {
+  text-align: left;
+  vertical-align: middle;
+  margin: 12px 0px 12px 0px;
+  display: inline-block;
+}
+
+.product-info .option-box .option-line-1 .option-description {
+  text-align: left;
+  vertical-align: middle;
+  margin: 12px 0px 12px 0px;
+  display: inline-block;
+}
+
+.product-info-box {
+  width: 526px;
+  height: 544px;
+  margin: 48px 24px 100px 24px;
+  display: inline-block;
+}
+
+.additional-info-tags {
+  height: 20px;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: left;
+  margin-bottom: 8px;
+}
+
+.additional-info-tags div {
+  display:inline-block;
+}
+
+.additional-info-tags > div {
+  padding: 2px 8px 2px 8px;
+}
+
+.additional-info-tags .ready-to-ship-tag {
+  border-radius: 2px 0 0 2px;
+  background-image: linear-gradient(270deg, #F5515F 0%, #FF7527 100%);
+}
+
+.additional-info-tags .ready-to-ship-tag-text {
+  color: #FFFFFF;
+  font-family: roboto-medium;
+}
+
+.additional-info-tags .in-stock-tag {
+  color: #FF6600;
+  background-color: #FFF0E6;
+}
+
+.additional-info-tags .icon-ok {
+  top: 2px;
+  position: relative;
+}
+
+.additional-info-tags .in-stock-tag-text {
+  width: 43px;
+  height: 16px;
+  display: inline-block;
+}
+
+.additional-info-tags .fast-dispatch-tag {
+  color: #FF6600;
+  background-color: #FFF0E6;
+  border-radius: 0 2px 2px 0;
+}
+
+.product-title-box {
+  margin: 0px 0px 12px 0px;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  color: #333333;
+}
+
+.product-title-additional-info-tag {
+  width: 111px;
+  height: 20px;
+  border-radius: 2px;
+  background-color: #EDF0F3; 
+  color: #999999;
+  padding: 2px 8px 2px 8px;
+  text-align: left;
+  line-height: 16px;
+  font-size: 12px;
+  display: inline;
+}
+
+.product-rating {
+  width: 242px;
+  height: 16px;
+  margin: 0px 284px 12px 0px;
+  font-size: 0px;
+  line-height: 16px;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.product-rating .stars {
+  width: 86px;
+  height: 14px;
+  display: inline-block;
+  margin-right: 4px;
+  white-space: nowrap;
+  position: relative;
+  top: 2px;
+}
+
+.product-rating .star {
+  font-size: 14px;
+  width: 14px;
+  height: 14px;
+  padding-right: 4px;
+  display: inline-block;
+}
+
+.product-rating .rating {
+  width: 17px;
+  margin: 0px 4px 0px 0px;
+  display: inline-block;
+  color: #FF6600;
+  font-size: 12px;
+}
+
+.product-rating .review-count {
+  margin: 0px 24px 0px 0px;
+  display: inline-block;
+  color: #999999;
+  font-size: 12px;
+}
+
+.product-rating .buyer-count {
+  color: #333333;
+  display: inline-block;
+  font-size: 12px;
+}
+
+.price-option-box {
+  width: 526px;
+  height: 64px;
+  border-top: 1px solid #E6E7EB;
+  border-bottom: 1px solid #E6E7EB;
+  font-size: 0px;
+}
+
+.price-option-box .price-range {
+  margin: 12px 12px 0px 0px;
+  height: 24px;
+  color: #FF6600;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  display: inline-block;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.price-option-box .option-title {
+  width: 62px;
+  height: 16px;
+  color: #999999;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: left;
+  display: inline-block;
+  margin: 16px 0px 4px 0px;
+}
+
+.price-option-box .option-number {
+  width: 64px;
+  height: 16px;
+  color: #333333;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: left;
+  display: inline-block;
+  margin: 16px 0px 4px 0px;
+}
+
+.price-option-box .min-order-tag {
+  width: 72px;
+  height: 16px;
+  color: #999999;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: left;
+  margin: 16px 181px 4px 0px;
+  display: inline-block;
+}
+
+.price-option-box .non-discount-price {
+  display: block;
+  color: #999999;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: left;
+  text-decoration: line-through;
+  margin: 0px 402px 12px 0px;
+}
+
+.march-expo {
+  width: 526px;
+  height: 40px;
+  background-color: #FFF0E6;
+  margin-top: 12px;
+}
+
+.march-expo .march-expo-logo {
+  width: 76px;
+  height: 40px;
+  display: inline-block;
+}
+
+.march-expo .free-shipping-tag {
+  height: 40px;
+  display: inline-block;
+  color: #FF6600;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: left;
+  position: relative;
+  bottom: 14px;
+  padding-left: 24px;
+}
+
+.march-expo .on-time-delivery-tag {
+  height: 16px;
+  display: inline-block;
+  color: #FF6600;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: left;
+  bottom: 14px;
+  position: relative;
+  padding-left: 24px;
+  padding-right: 25px;
+}
+
+.march-expo .forward-symbol {
+  width: 8px;
+  height: 14px;
+  display: inline-block;
+  position: relative;
+  bottom: 13px;
+}
+
+.countdown-timer-box {
+  width: 328px;
+  height: 24px;
+  margin: 24px 198px 24px 0px;
+}
+
+.countdown-timer-box .percentage-off-tag {
+  width: 59px;
+  height: 16px;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: left;
+  color: #FF6600;
+  display: inline-block;
+  padding: 4px 0px 4px 0px;
+}
+
+.countdown-timer-box .dicount-ends-in-tag {
+  color: #999999;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: left;
+  padding: 4px 24px 4px 0px;
+  display: inline-block;
+}
+
+.countdown-timer-box .icon-clock {
+  padding-right: 12px;
+  position: relative;
+  top: 3px;
+}
+
+.countdown-timer-box .countdown-timer {
+  color: #999999;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  display: inline-block;
+  font-family: roboto-italic;
+}
+
+.product-option-box {
+  width: 526px;
+  height: 144px;
+  margin-bottom: 24px;
+}
+
+.product-option-box .product-option-box-first-line .product-option-box-inner-box-title {
+  color: #999999;
+  font-size: 14px;
+  line-height: 16px;
+  width: 112px;
+  text-align: left;
+  display: inline-block;
+  margin: 12px 0px 12px 0px;
+}
+
+.product-option-box .option-title {
+  color: #333333;
+  font-size: 14px;
+  line-height: 16px;
+  width: 174px;
+  text-align: left;
+  margin: 12px 0px 12px 0px;
+  display: inline-block;
+}
+
+.product-option-box .option-price {
+  color: #333333;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: left;
+  display: inline-block;
+  margin: 12px 22px 12px 0px;
+}
+
+.product-option-box .reduce-quantity-button, .increase-quantity-button {
+  background-color: #FFFFFF;
+  border: 1px solid #E6E7EB;
+  border-radius: 2px 0 0 2px;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  color: #EDF0F3;
+}
+
+.product-option-box .reduce-quantity-button {
+  position: relative;
+  bottom: 0.25px;
+}
+
+.product-option-box .increase-quantity-button {
+  border-radius: 0 2px 2px 0;
+  position: relative;
+  top: 0.5px;
+}
+
+.product-option-box .increase-quantity-button .icon-plus {
+  position: relative;
+  top: 2px;
+}
+
+.product-option-box .reduce-quantity-button .icon-minus {
+  position: relative;
+  bottom: 2px;
+}
+
+.product-option-box .quantity-count-box {
+  height: 38px;
+  display: inline-block;
+  border-bottom: 1px solid #737375;
+  border-top: 1px solid #E6E7EB;
+  position: relative;
+  top: 1px;
+}
+
+.product-option-box .quantity-count-box .quantity-1, .product-option-box .quantity-count-box .quantity-2, .product-option-box .quantity-count-box .quantity-3 {
+  color: #999999;
+  font-size: 14px;
+  line-height: 16px;
+  width: 78px;
+  height: 100%;
+  text-align: center;
+  border-style: none;
+  opacity: 0.8;
+}
+
+.product-option-box .product-option-box-second-line .option-title, .product-option-box .product-option-box-third-line .option-title {
+  color: #333333;
+  font-size: 14px;
+  line-height: 16px;
+  width: 174px;
+  text-align: left;
+  margin: 0px 0px 0px 112px;
+  display: inline-block;
+}
+
+.product-option-box .product-option-box-second-line, .product-option-box-third-line {
+  margin-top: 12px;
+}
+
+.product-option-box .product-option-box-third-line .option-price {
+  margin-right: 30px;
+}
+
+.trade-assurance-box {
+  margin: 0px 220px 12px 0px;
+  display: block;
+  font-size: 0;
+}
+
+.trade-assurance-box .icon-security-lock {
+  margin: 1px 5px 1px 1px;
+  position: relative;
+  top: 7px;
+}
+
+.trade-assurance-box .trade-assurance-tag {
+  width: 107px;
+  height: 16px;
+  display: inline-block;
+  color: #999999;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: left;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+.trade-assurance-box .trade-assurance-additional-info {
+  width: 181px;
+  height: 16px;
+  display: inline-block;
+  color: #999999;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.payment-type-box {
+  font-size: 0;
+}
+
+.payment-type-box .payment-title {
+  color: #999999;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: left;
+  display: inline-block;
+}
+
+.payment-type-box .payment-type-visa, .payment-type-mastercard, .payment-type-apple-pay {
+  position: relative;
+  top: 2px;
+}
+
+.links {
+  font-size: 0px;
+  margin-top: 12px;
+}
+
+.links .alibaba-logistics-link {
+  width: 119px;
+  color: #999999;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: left;
+  display: inline-block;
+  margin-right: 24px;
+  text-decoration: none;
+} 
+
+.links .inspection-solutions-link {
+  width: 109px;
+  color: #999999;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: left;
+  display: inline-block;
+  text-decoration: none;
+} 
+
